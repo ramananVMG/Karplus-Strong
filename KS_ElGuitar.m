@@ -13,7 +13,7 @@ clear all;
 % Parameters/initial values
 % -------------------------------------------------------------------------
 f0 = 440;               % Fundamental freq of string (Hz)
-rho = 0.98;             % Loss factor
+rho = 0.97;             % Loss factor
 R = 0.9;                % Dynamics filter coefficient (strength of pluck)
 mu = 0.25;              % Fraction of dist between bridge and pluck point
 fb_gain = 0.02;         % Feedback gain (0 to 1)
