@@ -89,5 +89,5 @@ y_dist = y_dist/max(abs(y_dist));     % Normalize
 % -------------------------------------------------------------------------
 soundsc(y_dist,Fs);
 filename = sprintf('KS_ElGuitar_%dHz_%0.1fs.wav',f0,tEnd);
-audiowrite(filename,y,Fs);
+audiowrite(filename,y_dist,Fs);
 % -------------------------------------------------------------------------
